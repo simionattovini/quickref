@@ -31,7 +31,7 @@ kubectl config set-context --current --namespace=<namespace_id>
 ### List logs from a pod
 
 ```bash
-kubectl ligs -f <pod_id>
+kubectl logs -f <pod_id>
 ```
 
 ### List jobs from a context
